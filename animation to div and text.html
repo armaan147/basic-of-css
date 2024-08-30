@@ -1,0 +1,46 @@
+<!--to add animation to div and text-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+.classforbox{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    text-align: center;
+    animation: aa 5s infinite;
+    background-image:conic-gradient(red,blue,green,orange);
+
+}
+@keyframes aa{
+    0%{background-color: aqua;}
+    25%{background-color: blue;}
+    50%{background-color: brown;}
+    75%{background-color: pink;}
+    100%{background-color: yellow;}
+}
+.welcome{
+    color: antiquewhite;
+    animation: bb 5s infinite ;
+    
+
+}
+@keyframes bb{
+    0%{color: pink; font-size: 20px;}
+    25%{color: aqua; font-size: 25px;}
+    50%{color: blue;font-size: 30px;}
+    75%{color: brown;font-size: 10px;}
+    100%{color: rgb(82, 94, 60); font-size: 35px;}
+}
+
+
+   </style>
+</head>
+<body>
+<div class="classforbox"> <h1 class="welcome">welcome</h1></div>
+    
+</body>
+</html>

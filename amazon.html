@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.box{
+    width: 100%;
+    position: relative;
+    height: 70px;
+    background-color: rgb(26, 26, 32);
+}
+.input{
+    height: 40px;
+    width: 600px;
+    position: relative;
+    margin-left: 220px;
+ top: -20px;
+}
+.input1{
+    height: 40px;
+    position: relative;
+    margin-left: 200px;
+ top: -65px;
+ border: 0px;
+ font-weight: bold;
+background-color: transparent;
+color:red;
+}
+.select{
+    position: relative;
+    height: 46px;
+    width: 50px;
+    top: -66px;
+    margin-left: -45px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dcontent{
+    display: none;
+    position: absolute;
+    width: 100px;
+    background-color: gray;
+}
+.dropdown:hover .dcontent{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+.li{
+    padding: 40px;
+    position: relative;
+    margin-left: 200px;
+}
+
+
+
+
+
+    </style>
+</head>
+<body style="margin: 0px; padding: 0px;">
+    <div class="box">
+        <img src="amazonlogo.PNG" style="margin-left: 30px;margin-top: 8px;">
+        <input type="text" placeholder="search" class="input">
+        <input type="text" placeholder="Update location" class="input1">
+        <select class="select" >
+            <option >ALL Categories</option>
+           <option >car</option>
+           <option >mobile</option>
+           <option >men</option>
+           <option >women</option>
+           <option >bike</option>
+           <option >appliences</option>
+           <option >phone</option>
+           <option >headphones</option>
+           <option >home needs</option>
+           <option >no needs</option>
+        </select>
+    </div>
+    <ul>
+<li class="dropdown">
+    <a href="#" class="li"> men</a>
+    <div class="dcontent">
+<ul>
+    <li>
+        a
+    </li>
+    <li>b</li>
+<li>c</li>
+<li>d</li>
+
+</ul>
+</div>
+
+</li>
+<li class="dropdown">
+<a href="#" class="li">women</a>
+<div class="dcontent">
+<ul>
+    <li>as</li>
+<li>as</li>
+<li>adsgas</li>
+<li>saDSD</li>
+<LI>SADFGBB</LI>
+
+</ul>
+
+</div>
+</li>
+<li class="dropdown">
+<a href="#" class="li">camera</a>
+<div class="dcontent">
+<ul>
+    <li>original</li>
+<li>local</li>
+<li>dslr</li>
+<li>samsung</li>
+<LI>canon</LI>
+
+</ul>
+
+</div>
+</li>
+<li class="dropdown">
+<a href="#" class="li">phone</a>
+<div class="dcontent">
+<ul>
+    <li>vivo</li>
+<li>apple</li>
+<li>samsung</li>
+<li>oppo</li>
+<LI>nokia</LI>
+
+</ul>
+
+</div>
+
+
+
+</li>
+
+
+
+    </ul>
+   
+    
+</body>
+</html>

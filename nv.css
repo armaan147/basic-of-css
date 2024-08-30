@@ -1,0 +1,27 @@
+ul{
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    list-style-type: none;
+}
+li{
+    float: left;
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dcontent{
+    display: none;
+    position: absolute;
+    width: 100px;
+    background-color: gray;
+}
+.dropdown:hover .dcontent{
+    display: block;
+}

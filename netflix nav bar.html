@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;
+
+        }
+li{
+    float: left;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dcontent{
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color:rgba(158, 153, 153, 0.068);
+    padding-left: 10px;
+    left: -170px;
+}
+.dropdown:hover .dcontent{
+    display: block;
+}
+
+
+
+
+    </style>
+</head>
+<body style="background-color: black;">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV SHOW</a></li>
+        <li><a href="#">MOVIES</a></li>
+        <li><a href="#">NEW & POPULAR</a></li>
+        <li><a href="#">MY LIST</a></li>
+
+    </ul>
+    <ul>
+        <li style="margin-left: 600px;"><img style="width: 30px;height: 30px;" src="searchnew.jpg" alt=""></li>
+        <li class="dropdown" ><img style="width: 30px;height: 30px;"src="bell.png" alt="">
+        <div class="dcontent">
+<p><a href="#"> Netflix looksahead
+    <br>
+    whats coming up
+</a></p>
+<p><a href="#">Now Available
+    <br> Season 3
+</a></p>
+<p><a href="#">whats new</a></p>
+
+        </div>
+        
+        </li>
+        <li class="dropdown" ><img style="width: 30px;height: 30px;" src="l.PNG" alt="">
+      <div class="dcontent">
+        <p><a href="#">Armaan</a></p>
+        <p><a href="#">Vishu</a></p>
+        <p><a href="#">Tanya</a></p>
+        <p><a href="#">Ritu</a></p>
+        <p><a href="#">Gourav</a></p>
+        <p><a href="#">manage profile</a></p>
+        <p><a href="#">Account</a></p>
+        <p><a href="#">Help centre</a></p>
+      </div>
+          
+      
+        
+        </li>
+    </ul>
+</body>
+</html>
