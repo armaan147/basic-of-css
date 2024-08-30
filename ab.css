@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(90deg,pink,blue);
+}
+#ee{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
